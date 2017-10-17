@@ -78,7 +78,16 @@ function greet($name)
 }
 greet("Janet");
 
-
+/**
+ * Garbage Collection 垃圾回收
+ */
+//isset()函数 可以检查某个变量是否已经被设置了值
+$s1 = isset($s2);//false
+$s2 = "Fred";
+$s1 = isset($name);//true
+//usset()函数可以移除一个变量中的值
+$s1 = "Fred";
+unset($s1);
 
 
 
