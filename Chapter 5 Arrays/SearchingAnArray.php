@@ -21,7 +21,7 @@ function hasRequired($array,$requiredFields){
     return true;
 }
 if($_POST["submitted"]){
-    echo "<p>You";
+    echo "<p>You ";
     echo hasRequired($_POST,array("name","email")) ? "did":"did not";
     echo " have all the required fields</p>";
 }

@@ -108,6 +108,7 @@ if(is_array($person)){
  */
 class Person{
     public $name = "";
+    public $age;
     function name($newName = NULL){
         if(!is_null($newName)){
             $this->name = $newName;
